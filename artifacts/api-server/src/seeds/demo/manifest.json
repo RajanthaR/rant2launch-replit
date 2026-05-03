@@ -1,0 +1,383 @@
+{
+  "project": {
+    "slug": "demo",
+    "name": "Rant-to-Launch Buildathon Demo",
+    "description": null
+  },
+  "sourceInput": {
+    "kind": "rant",
+    "title": null,
+    "rawText": "[00:00] I keep seeing builders finish a product and then freeze because the launch is still empty.\n\n[00:08] They have the demo, maybe a voice note, maybe a rough build log, but they still need the thread, the post, the landing page, the short video angle, the email, and the schedule.\n\n[00:20] So I built Rant-to-Launch on Replit.\n\n[00:24] The idea is simple: you paste one messy founder rant or transcript, and the app turns it into a coherent launch pack.\n\n[00:33] It should not sound like generic AI content. It should keep the builder's voice, sharpen the hook, and make the product easier to understand.\n\n[00:43] My minimum success case is this: one input becomes a launch angle, an X thread, a LinkedIn post, a carousel outline, a newsletter blurb, landing-page copy, clip storyboard cards, and a practical posting schedule.\n\n[00:58] I'm intentionally making it transcript-first so it works even if uploads or video rendering are messy during a 24-hour sprint.\n\n[01:08] The emotional hook is the same one I've felt myself: you finish the build and still have nothing launch-ready.\n\n[01:18] I want this to feel like the missing launch layer for indie builders, creators, and solo founders who can make the product but struggle to package the story.\n\n[01:31] The perfect demo is that I use Rant-to-Launch to generate the story assets for Rant-to-Launch itself during the Buildathon.\n\n[01:41] One raw rant in. A real launch out.",
+    "metadata": {
+      "cta": "Try Rant-to-Launch",
+      "tone": "sharp, human, practical, non-cringey",
+      "audience": "indie builders, solo founders, creators, and hackathon participants",
+      "channels": [
+        "x",
+        "linkedin",
+        "newsletter",
+        "carousel"
+      ],
+      "timestamps": "00:00 freeze after build\n00:24 paste rant, get launch pack\n00:43 8 outputs\n01:31 self-demo at Buildathon\n01:41 one rant in, real launch out"
+    }
+  },
+  "generationRun": {
+    "status": "done",
+    "model": "gpt-5.4",
+    "promptVersion": "v4-visuals"
+  },
+  "assetCards": [
+    {
+      "kind": "launch_angle",
+      "title": "Launch angle",
+      "content": {
+        "text": "Rant-to-Launch turns one messy founder rant into a complete, usable launch pack. It’s built for people who can ship the product but get stuck packaging the story, so you can go from raw transcript to launch-ready assets without sounding like generic AI."
+      },
+      "position": 0
+    },
+    {
+      "kind": "landing_page_copy",
+      "title": "Landing page",
+      "content": {
+        "cta": "Try Rant-to-Launch",
+        "faq": [
+          {
+            "answer": "Pricing depends on the version you’re using, but the goal is simple: affordable for indie builders and solo founders, not enterprise-priced. You should be able to justify it with a single saved afternoon.",
+            "question": "How much does it cost?"
+          },
+          {
+            "answer": "Usually in one session. If you already have a transcript or voice note, you can paste it in and get a draft launch pack fast enough to use the same day.",
+            "question": "How fast can I go from rant to usable launch assets?"
+          },
+          {
+            "answer": "It’s for indie builders, solo founders, creators, and hackathon participants who can build the product but need help packaging the story. If you already have a marketing team and a full content workflow, this is probably less urgent for you.",
+            "question": "Who is this actually for?"
+          },
+          {
+            "answer": "Yes, because it starts from plain text. You can paste in transcripts from voice notes, recorded demos, meetings, or build logs, then move the outputs into whatever stack you already use.",
+            "question": "Does it work with my existing tools and process?"
+          },
+          {
+            "answer": "Only share what you’re comfortable using for launch copy. If you’re working on something sensitive, remove private credentials, customer data, or confidential details before pasting.",
+            "question": "What happens to my transcript and product details?"
+          },
+          {
+            "answer": "You can, but the bottleneck is usually structure, consistency, and speed under pressure. Rant-to-Launch is designed around the exact founder workflow of turning one raw explanation into all the launch pieces you actually need.",
+            "question": "Why not just use ChatGPT with a prompt?"
+          }
+        ],
+        "features": [
+          {
+            "title": "Start with the raw explanation",
+            "description": "Paste the founder rant, transcript, or rough build notes you already have instead of filling out another rigid form."
+          },
+          {
+            "title": "Get 8 launch assets at once",
+            "description": "Generate a launch angle, X thread, LinkedIn post, carousel outline, newsletter blurb, landing-page copy, storyboard cards, and a 7-part posting schedule."
+          },
+          {
+            "title": "Keep the founder’s voice",
+            "description": "Built to sound sharp, human, and specific, not like flattened AI marketing copy."
+          },
+          {
+            "title": "Made for fast launches",
+            "description": "Transcript-first workflow works well for hackathons, build sprints, and solo launches where time is tight and assets are messy."
+          }
+        ],
+        "headline": "Turn one founder rant into a full launch pack",
+        "socialProof": "Built around a real founder pain: finishing the product and still having nothing launch-ready.",
+        "subheadline": "Rant-to-Launch takes your messy transcript, voice note, or build log and turns it into clear, human launch assets across X, LinkedIn, email, landing-page copy, video storyboards, and a practical posting schedule."
+      },
+      "position": 1
+    },
+    {
+      "kind": "x_thread",
+      "title": "X thread",
+      "content": {
+        "tweets": [
+          "A lot of builders don’t get stuck on the product. They get stuck right after it’s done.",
+          "The demo exists. The build log exists. The voice note exists. But the thread, landing page, launch post, email, short video angle, and schedule are all still blank.",
+          "So I built Rant-to-Launch on Replit.",
+          "You paste one messy founder rant or transcript, and it turns that into a coherent launch pack: launch angle, X thread, LinkedIn post, carousel outline, newsletter blurb, landing-page copy, clip storyboard cards, and a posting schedule.",
+          "The goal is not polished AI slop. It should keep your voice, sharpen the hook, and make your product easier to understand.",
+          "It’s intentionally transcript-first, so it still works when uploads are messy and you’re trying to launch fast during a sprint or hackathon.",
+          "The best part: I’m using Rant-to-Launch to generate the launch for Rant-to-Launch itself. One rant in. A real launch out. Try Rant-to-Launch."
+        ]
+      },
+      "position": 2
+    },
+    {
+      "kind": "linkedin_post",
+      "title": "LinkedIn post",
+      "content": {
+        "text": "A weirdly common founder problem: you finish building, and then the launch is still empty.\n\nYou have the product. Maybe a demo. Maybe a rough build log. Maybe a voice note where you explain what it does better than any landing page ever could.\n\nBut none of that is actually launch-ready.\n\nYou still need the angle.\nThe post.\nThe thread.\nThe carousel.\nThe landing page copy.\nThe email.\nThe short video concept.\nThe schedule.\n\nThat gap is why I built Rant-to-Launch.\n\nIt’s a transcript-first tool for indie builders, solo founders, creators, and hackathon participants. You paste one messy founder rant or transcript, and it turns it into a practical launch pack:\n\n- launch angle\n- X thread\n- LinkedIn post\n- carousel outline\n- newsletter blurb\n- landing-page copy\n- clip storyboard cards\n- posting schedule\n\nThe point is not to flatten your voice into generic AI content. The point is to keep what already sounds human, sharpen the hook, and make the product easier to understand.\n\nI built it this way on purpose. In a real sprint, uploads can break, editing can get messy, and rendering can slow you down. But almost every founder can talk. Almost every founder can rant. That raw explanation is usually the best source material anyway.\n\nThe most honest demo is this: I’m using Rant-to-Launch to generate the launch assets for Rant-to-Launch itself during the Buildathon.\n\nOne raw rant in.\nA real launch out.\n\nIf you’ve ever shipped the build but stalled on the story, try Rant-to-Launch."
+      },
+      "position": 3
+    },
+    {
+      "kind": "newsletter_blurb",
+      "title": "Newsletter blurb",
+      "content": {
+        "text": "A lot of founders think they have a launch problem when they actually have a packaging problem.\n\nThe product is done. The demo exists. There’s probably a build log, a rough transcript, or a voice note where the founder explains the idea clearly. But when it’s time to launch, the important pieces are still missing: the thread, the LinkedIn post, the landing page copy, the email, the carousel, the short video angle, and the posting plan.\n\nThat’s why I built Rant-to-Launch.\n\nIt’s a transcript-first tool that turns one messy founder rant into a practical launch pack. Paste in a raw transcript or voice-note dump, and it generates a launch angle, X thread, LinkedIn post, carousel outline, newsletter blurb, landing-page copy, clip storyboard cards, and a posting schedule.\n\nThe goal isn’t to make everything sound polished in the worst possible AI way. The goal is to keep the founder’s actual voice, sharpen the story, and make the product easier to understand.\n\nI built it for indie builders, solo founders, creators, and hackathon participants who can ship fast but don’t want launch day to become a separate full-time job.\n\nThe simplest promise is still the whole product:\n\nOne rant in. A real launch out.\n\nTry Rant-to-Launch."
+      },
+      "position": 4
+    },
+    {
+      "kind": "carousel_outline",
+      "title": "Carousel outline",
+      "content": {
+        "slides": [
+          {
+            "body": "A lot of builders freeze the moment they have to turn the build into a launch.",
+            "slide": 1,
+            "headline": "You finished the product. Now what?",
+            "imageUrl": "/objects/launches/demo/carousel/1.png"
+          },
+          {
+            "body": "Your demo, voice note, transcript, and build log usually contain the story.",
+            "slide": 2,
+            "headline": "The raw material already exists",
+            "imageUrl": "/objects/launches/demo/carousel/2.png"
+          },
+          {
+            "body": "You still need the thread, post, landing page, email, video angle, and schedule.",
+            "slide": 3,
+            "headline": "The launch is still blank",
+            "imageUrl": "/objects/launches/demo/carousel/3.png"
+          },
+          {
+            "body": "Shipping the product is one skill; packaging it clearly is another.",
+            "slide": 4,
+            "headline": "That gap is the real bottleneck",
+            "imageUrl": "/objects/launches/demo/carousel/4.png"
+          },
+          {
+            "body": "Paste one messy founder rant and get a complete launch pack back.",
+            "slide": 5,
+            "headline": "Rant-to-Launch fixes that",
+            "imageUrl": "/objects/launches/demo/carousel/5.png"
+          },
+          {
+            "body": "It keeps your voice, sharpens the hook, and avoids generic AI output.",
+            "slide": 6,
+            "headline": "Built to stay human",
+            "imageUrl": "/objects/launches/demo/carousel/6.png"
+          },
+          {
+            "body": "Made for indie builders, solo founders, creators, and hackathon teams.",
+            "slide": 7,
+            "headline": "One rant in. A real launch out.",
+            "imageUrl": "/objects/launches/demo/carousel/7.png"
+          }
+        ]
+      },
+      "position": 5
+    },
+    {
+      "kind": "storyboard_cards",
+      "title": "Storyboard",
+      "content": {
+        "frames": [
+          {
+            "frame": 1,
+            "hook": "You built the product and still have nothing to post.",
+            "sourceMoment": "00:00 — \"builders finish a product and then freeze because the launch is still empty\"",
+            "visual": "Founder on camera at laptop, finished product open on screen, cursor hovering over blank social post and empty doc tabs.",
+            "onScreenText": "Built it. Still stuck.",
+            "voiceover": "A lot of builders don’t get stuck on the build. They get stuck right after, when the product is done and the launch is still blank.",
+            "cta": "Keep watching",
+            "imageUrl": "/objects/launches/demo/storyboard/1.png"
+          },
+          {
+            "frame": 2,
+            "hook": "The raw material is already there.",
+            "sourceMoment": "00:24 — \"you paste one messy founder rant or transcript\"",
+            "visual": "Screen recording of a rough transcript being pasted into the app from a notes doc or voice memo transcript.",
+            "onScreenText": "Paste the rant",
+            "voiceover": "You usually already have the source material. A voice note, a transcript, a build log, a rambling explanation that actually sounds more human than your polished copy.",
+            "cta": "See how it works",
+            "imageUrl": "/objects/launches/demo/storyboard/2.png"
+          },
+          {
+            "frame": 3,
+            "hook": "One input becomes the whole launch pack.",
+            "sourceMoment": "00:43 — \"one input becomes a launch angle, an X thread, a LinkedIn post\"",
+            "visual": "Fast UI montage showing each output card appearing one by one: launch angle, X thread, LinkedIn post, carousel, newsletter, landing page, storyboard, posting schedule.",
+            "onScreenText": "8 outputs, one input",
+            "voiceover": "Rant-to-Launch turns that one messy input into the assets founders actually need: posts, page copy, email, storyboard cards, and a practical schedule.",
+            "cta": "Picture your next launch",
+            "imageUrl": "/objects/launches/demo/storyboard/3.png"
+          },
+          {
+            "frame": 4,
+            "hook": "It should still sound like you.",
+            "sourceMoment": "00:43 — \"It should not sound like generic AI content. It should keep the builder's voice\"",
+            "visual": "Split screen: left side bland corporate copy, right side sharper founder-style copy with lines being edited and tightened.",
+            "onScreenText": "Not AI slop",
+            "voiceover": "The point isn’t generic AI content. The point is to keep your voice, sharpen the hook, and make the product easier to understand.",
+            "cta": "Judge the output yourself",
+            "imageUrl": "/objects/launches/demo/storyboard/4.png"
+          },
+          {
+            "frame": 5,
+            "hook": "Built for messy, fast launch reality.",
+            "sourceMoment": "Section: transcript-first workflow",
+            "visual": "B-roll of hackathon timer, messy desktop, quick demo clips, notes app, and founder switching between tabs during a sprint.",
+            "onScreenText": "Made for launch sprints",
+            "voiceover": "I made it transcript-first on purpose. When you’re in a 24-hour sprint or hackathon, uploads and editing can get messy, but you can always talk through what you built.",
+            "cta": "Use it in your next sprint",
+            "imageUrl": "/objects/launches/demo/storyboard/5.png"
+          },
+          {
+            "frame": 6,
+            "hook": "One rant in. A real launch out.",
+            "sourceMoment": "01:41 — \"One raw rant in. A real launch out.\"",
+            "visual": "Founder back on camera, product page and generated launch assets visible, ending on app UI and CTA button.",
+            "onScreenText": "One rant. Real launch.",
+            "voiceover": "The best demo is that I’m using Rant-to-Launch to launch Rant-to-Launch itself. If you’ve shipped the build but not the story, try Rant-to-Launch.",
+            "cta": "Try Rant-to-Launch",
+            "imageUrl": "/objects/launches/demo/storyboard/6.png"
+          }
+        ]
+      },
+      "position": 6
+    },
+    {
+      "kind": "posting_schedule",
+      "title": "Launch-day posting plan",
+      "content": {
+        "entries": [
+          {
+            "day": "Launch",
+            "content": "I keep seeing builders finish a product and then freeze because the launch is still empty.\n\nYou have the demo. Maybe a voice note. Maybe a rough build log.\n\nBut you still need the thread, the post, the landing page, the email, the short video angle, and the schedule.\n\nSo I built Rant-to-Launch.\n\nPaste one messy founder rant or transcript, and it turns it into a coherent launch pack:\n- launch angle\n- X thread\n- LinkedIn post\n- carousel outline\n- newsletter blurb\n- landing-page copy\n- clip storyboard cards\n- posting schedule\n\nBuilt for indie builders, solo founders, creators, and hackathon participants.\n\nOne rant in. A real launch out.\n\nTry Rant-to-Launch.",
+            "platform": "X / Twitter"
+          },
+          {
+            "day": "+1 hour",
+            "content": "Small behind-the-scenes note on how I built Rant-to-Launch:\n\nI made it transcript-first on purpose.\n\nA lot of launch tools assume you already have clean assets, polished positioning, and time to assemble everything. That’s not how most fast launches actually work.\n\nIn reality, founders have a messy voice note, a rough transcript, a few screenshots, and a half-formed explanation that somehow sounds more real than the final copy.\n\nSo instead of forcing a perfect input, I built around the thing most builders already have: the rant.\n\nThat raw explanation is often where the best hook lives.\n\nIf you’ve ever finished a build and realized you still had nothing launch-ready, that’s exactly the gap this is meant to close.\n\nTry Rant-to-Launch.",
+            "platform": "LinkedIn"
+          },
+          {
+            "day": "+3 hours",
+            "content": "Slide 1: You finished the product. Now what?\nSlide 2: The demo exists. The launch assets don’t.\nSlide 3: Most founders already have the raw material in a rant, transcript, or build log.\nSlide 4: The real bottleneck is turning that into a clear story.\nSlide 5: Rant-to-Launch turns one messy input into 8 usable launch assets.\nSlide 6: It’s built to keep your voice, not flatten it.\nSlide 7: One rant in. A real launch out.\n\nCaption:\nShipping the product and packaging the story are two different jobs.\n\nRant-to-Launch is for the second one.\n\nTry Rant-to-Launch.",
+            "platform": "Carousel (LinkedIn carousel)"
+          },
+          {
+            "day": "+6 hours",
+            "content": "Best part of today: the most honest demo for Rant-to-Launch is using it to generate the launch for Rant-to-Launch itself.\n\nThat was the goal from the start.\n\nNot theory. Not a fake use case.\n\nOne founder rant in.\nA real launch out.\n\nIf you build fast but stall when it’s time to explain what you made, try Rant-to-Launch.",
+            "platform": "X / Twitter"
+          },
+          {
+            "day": "Next morning",
+            "content": "Most launch friction shows up after the product is done.\n\nThat’s the problem behind Rant-to-Launch.\n\nA lot of founders already have the ingredients for a launch: a transcript, a demo explanation, a rough voice note, a build log. But those pieces still need to become actual launch assets people can use.\n\nRant-to-Launch takes one messy founder rant and turns it into a launch angle, X thread, LinkedIn post, carousel outline, newsletter blurb, landing-page copy, clip storyboard cards, and a posting schedule.\n\nIt’s built for indie builders, solo founders, creators, and hackathon participants who can ship the product but don’t want to spend another day staring at a blank launch doc.\n\nThe core idea is simple:\nOne rant in. A real launch out.\n\nTry Rant-to-Launch.",
+            "platform": "Newsletter / email"
+          },
+          {
+            "day": "Next afternoon",
+            "content": "A contrarian take: most founders do not need more launch advice.\n\nThey need better conversion of what they already know into usable assets.\n\nThe explanation is usually sitting there already in a messy form:\n- the voice note they sent a friend\n- the build log they wrote at 1 a.m.\n- the rambling transcript from a demo recording\n\nThat’s often more honest and more persuasive than the polished version.\n\nRant-to-Launch is built around that idea.\n\nInstead of starting with a blank page, you start with the founder’s real language and turn it into the pieces a launch actually needs.\n\nThat’s a much more practical workflow for solo builders and sprint-mode teams.\n\nIf that sounds familiar, try Rant-to-Launch.",
+            "platform": "LinkedIn"
+          },
+          {
+            "day": "Final voting-window reminder",
+            "content": "Final reminder before the launch window closes:\n\nIf Rant-to-Launch clicked for you, this is the last call to check it out and support it before voting ends.\n\nIt’s built for the exact moment after shipping, when the product exists but the story still doesn’t.\n\nPaste one founder rant. Get a real launch pack back.\n\nTry Rant-to-Launch before the window closes.",
+            "platform": "X / Twitter"
+          }
+        ]
+      },
+      "position": 7
+    }
+  ],
+  "images": [
+    {
+      "original": "/objects/launches/8180058199/storyboard/1-6fc4925e-6706-4495-b06c-c0c9213af273.png",
+      "seedFile": "storyboard-1.png",
+      "newUrl": "/objects/launches/demo/storyboard/1.png",
+      "kind": "storyboard",
+      "index": 1
+    },
+    {
+      "original": "/objects/launches/8180058199/storyboard/2-eefbba80-00a8-4718-99ed-cc19fbc7f2bd.png",
+      "seedFile": "storyboard-2.png",
+      "newUrl": "/objects/launches/demo/storyboard/2.png",
+      "kind": "storyboard",
+      "index": 2
+    },
+    {
+      "original": "/objects/launches/8180058199/storyboard/3-15380f84-cf58-4c68-b2b0-a9c626698897.png",
+      "seedFile": "storyboard-3.png",
+      "newUrl": "/objects/launches/demo/storyboard/3.png",
+      "kind": "storyboard",
+      "index": 3
+    },
+    {
+      "original": "/objects/launches/8180058199/storyboard/4-7c0639d8-e900-4e13-bd3c-ccab0414e2b8.png",
+      "seedFile": "storyboard-4.png",
+      "newUrl": "/objects/launches/demo/storyboard/4.png",
+      "kind": "storyboard",
+      "index": 4
+    },
+    {
+      "original": "/objects/launches/8180058199/storyboard/5-adecf177-abeb-4d85-b938-c4c9b1ad14c9.png",
+      "seedFile": "storyboard-5.png",
+      "newUrl": "/objects/launches/demo/storyboard/5.png",
+      "kind": "storyboard",
+      "index": 5
+    },
+    {
+      "original": "/objects/launches/8180058199/storyboard/6-5add8f2f-7ee9-4718-a12f-28ea656d5f76.png",
+      "seedFile": "storyboard-6.png",
+      "newUrl": "/objects/launches/demo/storyboard/6.png",
+      "kind": "storyboard",
+      "index": 6
+    },
+    {
+      "original": "/objects/launches/8180058199/carousel/1-d9c07399-83ea-42d5-bb7b-e2c45e01948e.png",
+      "seedFile": "carousel-1.png",
+      "newUrl": "/objects/launches/demo/carousel/1.png",
+      "kind": "carousel",
+      "index": 1
+    },
+    {
+      "original": "/objects/launches/8180058199/carousel/2-5174e10c-278d-49c2-bf23-24f71d8641e1.png",
+      "seedFile": "carousel-2.png",
+      "newUrl": "/objects/launches/demo/carousel/2.png",
+      "kind": "carousel",
+      "index": 2
+    },
+    {
+      "original": "/objects/launches/8180058199/carousel/3-a7e231b7-f1d9-4b67-a258-365805778b34.png",
+      "seedFile": "carousel-3.png",
+      "newUrl": "/objects/launches/demo/carousel/3.png",
+      "kind": "carousel",
+      "index": 3
+    },
+    {
+      "original": "/objects/launches/8180058199/carousel/4-72d7181d-89a9-4bd0-bd53-b0b1626d50f3.png",
+      "seedFile": "carousel-4.png",
+      "newUrl": "/objects/launches/demo/carousel/4.png",
+      "kind": "carousel",
+      "index": 4
+    },
+    {
+      "original": "/objects/launches/8180058199/carousel/5-1b63cee0-9f73-400d-9176-2d362dad972f.png",
+      "seedFile": "carousel-5.png",
+      "newUrl": "/objects/launches/demo/carousel/5.png",
+      "kind": "carousel",
+      "index": 5
+    },
+    {
+      "original": "/objects/launches/8180058199/carousel/6-ac41b087-ec1e-428d-bcde-dd40e964d07a.png",
+      "seedFile": "carousel-6.png",
+      "newUrl": "/objects/launches/demo/carousel/6.png",
+      "kind": "carousel",
+      "index": 6
+    },
+    {
+      "original": "/objects/launches/8180058199/carousel/7-66f2b46a-3a1d-400f-b368-6dc4bd282a6b.png",
+      "seedFile": "carousel-7.png",
+      "newUrl": "/objects/launches/demo/carousel/7.png",
+      "kind": "carousel",
+      "index": 7
+    }
+  ]
+}
