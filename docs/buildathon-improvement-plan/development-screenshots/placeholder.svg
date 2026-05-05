@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Development screenshot placeholder</title>
+  <desc id="desc">Placeholder frame for a future buildathon development screenshot.</desc>
+  <rect width="1200" height="675" fill="#0b0b0f"/>
+  <rect x="42" y="42" width="1116" height="591" fill="#111118" stroke="#d7ff00" stroke-width="3"/>
+  <rect x="78" y="86" width="1044" height="58" fill="#171720" stroke="#2f2f39" stroke-width="2"/>
+  <circle cx="111" cy="115" r="8" fill="#d7ff00"/>
+  <circle cx="139" cy="115" r="8" fill="#5de7ff"/>
+  <circle cx="167" cy="115" r="8" fill="#ff4fb8"/>
+  <text x="600" y="276" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">Screenshot Slot</text>
+  <text x="600" y="334" text-anchor="middle" fill="#b8bac7" font-family="Arial, Helvetica, sans-serif" font-size="24">Replace this SVG with a real development screenshot.</text>
+  <path d="M426 420h348" stroke="#d7ff00" stroke-width="6" stroke-linecap="round"/>
+  <path d="M426 462h260" stroke="#5de7ff" stroke-width="6" stroke-linecap="round"/>
+  <path d="M426 504h304" stroke="#ff4fb8" stroke-width="6" stroke-linecap="round"/>
+</svg>
